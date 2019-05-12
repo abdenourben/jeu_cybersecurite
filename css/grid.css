@@ -1,0 +1,52 @@
+* {box-sizing: border-box;}
+
+.wrapper {
+  border: 2px solid #f76707;
+  border-radius: 5px;
+  background-color: #fff4e6;
+  width: 200px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.wrapper > div {
+  border: 2px solid #ffa94d;
+  border-radius: 5px;
+  background-color: green;
+  padding: 1em;
+  color: tomato;
+  flex: 1 1 70px;
+}
+
+.grid-container{
+    display: grid;
+    grid-template-columns: auto auto;
+    background-color: blue;
+    padding: 10px;
+    grid-gap: 50px;
+    text-align: center;
+    justify-content: space-evenly;
+
+}
+
+
+.player{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 10px;
+    background-color: #2196F3;
+    padding: 10px;
+
+
+}
+
+.player > div{
+    background-color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    padding: 20px 0;
+    font-size: 30px;
+}
+
+.item1{
+    grid-row: 1 / span 2; 
+}
