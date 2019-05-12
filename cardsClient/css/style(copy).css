@@ -1,0 +1,180 @@
+/* Style the Image Used to Trigger the Modal */
+#myImg {
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  #myImg:hover {opacity: 0.7;}
+  
+  /* The Modal (background) */
+  .modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+  }
+  
+  /* Modal Content (Image) */
+  .modal-content {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+  }
+  
+  /* Caption of Modal Image (Image Text) - Same Width as the Image */
+  #caption {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+    text-align: center;
+    color: #ccc;
+    padding: 10px 0;
+    height: 150px;
+  }
+  
+  /* Add Animation - Zoom in the Modal */
+  .modal-content, #caption { 
+    animation-name: zoom;
+    animation-duration: 0.6s;
+  }
+  
+  @keyframes zoom {
+    from {transform:scale(0)} 
+    to {transform:scale(1)}
+  }
+  
+  /* The Close Button */
+  .close {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+  /* 100% Image Width on Smaller Screens */
+  @media only screen and (max-width: 700px){
+    .modal-content {
+      width: 100%;
+    }
+  }
+
+  /* separate */
+
+
+  
+  
+  h1 {
+    text-align: center;
+    font-family: Tahoma, Arial, sans-serif;
+    color: black;
+    margin: 80px 0;
+  }
+  
+  .box {
+    width: 40%;
+    margin: 0 auto;
+    background: rgba(255,255,255,0.2);
+    padding: 35px;
+    border: 2px solid #fff;
+    border-radius: 20px/50px;
+    background-clip: padding-box;
+    text-align: center;
+  }
+  
+  .button {
+    font-size: 1em;
+    padding: 10px;
+    color: red;
+    border: 2px solid blue;
+    border-radius: 20px/50px;
+    text-decoration: none;
+    cursor: pointer;
+    /* transition: all 0.3s ease-out; */
+  }
+  .button:hover {
+    background: black;
+  }
+  
+  .overlay {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.7);
+   /* transition: opacity 500ms; */
+    visibility: hidden;
+    opacity: 0;
+  }
+  .overlay:target {
+    visibility: visible;
+    opacity: 1;
+  }
+  
+  .popup {
+    margin: 150px auto ;
+    padding: 50px;
+    background: #fff;
+    border-radius: 20px;
+    width: 45%;
+    position: relative;
+   /* transition: all 5s ease-in-out; */
+  }
+  
+  .popup h2 {
+    margin-top: 0;
+    color: black;
+    font-family: Tahoma, Arial, sans-serif;
+    text-align: center;
+  }
+
+  .popup .close {
+    margin-top:-35px;
+    margin-right:-55px;
+    cursor:pointer;
+    color: white;
+    border: 1px solid white;
+    border-radius: 30px;
+    background: red;
+    font-size: 50px;
+    font-weight: bold;
+    display: inline-block;
+    line-height: 10px;
+    padding: 16px 9px; 
+  }
+  .popup .close:hover {
+    color: white;
+  }
+  .popup .content {
+    max-height: 30%;
+    overflow: auto;
+  }
+  
+  @media screen and (max-width: 700px){
+    .box{
+      width: 70%;
+    }
+    .popup{
+      width: 70%;
+    }
+  }
