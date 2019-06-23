@@ -1,0 +1,209 @@
+Scenareo
+
+[
+  {
+	"id" : 1,
+	"name" : "Vous avez acheté une nouvelle planche à roulettes en ligne et avez utilisé votre compte PayezIci pour payer votre achat. Mais vous n'avez jamais reçu la planche à roulettes. Vous avez envoyé des courriels à la personne qui la vendait, mais vous n'avez jamais obtenu de réponse.",
+	"riskid" : [1]
+	},
+	{
+	"id" : 2,
+	"name" : "Vous étiez pressé de vérifier votre compte SpaceFace ce matin et vous avez accidentellement tapé www.spaceface.com. Au lieu d'ouvrir votre page SpaceFace, vous avez accédé à un site annonçant des chaussures orthopédiques !.",
+	"riskid" : [2]
+	},
+	{
+	"id" : 3,
+	"name" : "Hier, vous visitiez le site MaMusique et vous avez entendu tellement de chansons extraordinaires que vous les avez toutes achtées. Maintenant le site vous informe que vous lui devez 200$.",
+	"riskid" : [3]
+	},
+	{
+	"id" : 4,
+	"name" : "Vous recevez un courriel de PayezIci vous distant qu'il y a une problème concernant votre compte. Aprés avoir transmis votre code d'accès comme demandé, vous constatez que quelqu'un s'est servit de votre compte PayezIci pour faire toutes sortes d'achats",
+	"riskid" : [4]
+	},
+	{
+	"id" : 5,
+	"name" : "Tous vos amis jou au jeu Le monde de la chevalerie et vous avez décidé de l'essayer, Mais dés que votre personnage est apparu, un personnage de niveau avancé l'a tué et a pris toutes ses affaires. Vous avez essayé de continuer à jouer, mais chaque fois que avez fait réapparaître votre personnage, la même chose s'est produite.",
+	"riskid" : [5]
+	},
+	{
+	"id" : 7,
+	"name" : "Hier, vous avez essayé d'ouvrir votre page SpaceFace pour constater que quelqu'un avait changé votre mot de passe. Puis, vous avez découvert que le mot de passe de tous vos comptes en ligne avait été changé. Votre grand frère a effectué un balayage de votre ordinateur et découvert un logiciel qui enregistrait tout ce que vous saissiez au clavier, y compris les codes d'accès à tous vos comptes.",
+	"riskid" : [7]
+	},
+	{
+	"id" : 8,
+	"name" : "Depuis un mois, la vitesse de votre ordinateur ralentit sans cesse et hier, votre ordinateur a cessé de fonctionner. Vous avez demandé à votre grand frère de l'examiner et il a constaté qu'il était infecté par des dizaines de virus.",
+	"riskid" : [8]
+	},
+	{
+	"id" : 10,
+	"name" : "Lorsque vous êtes arrivé à l'école ce matin, votre meilleure amie était en colère contre vous. Vous découvrez qu'elle pensait que vous aviez écrit des commentaires vraiment méchants à son sujet sur sa page SpaceFace- mais ce n'est pas vous qui les avez écrits.",
+	"riskid" : [10]
+	},
+	{
+	"id" : 11,
+	"name" : "Hier, vous avez acheté de nouvelles chansons sur le site MaMusique et payé vos achat avec votre compte PayezIci. Aujourd'hui, vous constatez qu'une autre personne a utilisé votre compte PayezIci pour faire des achats de plus de 1000$.",
+	"riskid" : [11]
+	}
+]
+
+Risks
+[
+	{
+	"id" : 1,
+	"name" : "Cyberfraudes",
+	"toolid" : [1,2,3,4,5,6]
+	},
+	{
+	"id" : 2,
+	"name" : "Cybersquattage",
+	"toolid" : [1,7]
+	},
+	{
+	"id" : 3,
+	"name" : "Dépenses excessives",
+	"toolid" : [3,7]
+	},
+	{
+	"id" : 4,
+	"name" : "Hameçonnage",
+	"toolid" : [4,8]
+	},
+	{
+	"id" : 5,
+	"name" : "Harcèlement (Griefing)",
+	"toolid" : [2,6,7,9,10]
+	},
+	{
+	"id" : 6,
+	"name" : "Imposture",
+	"toolid" : [8,9,10,11,12,13,14]
+	},
+	{
+	"id" : 7,
+	"name" : "Logiciels espions",
+	"toolid" : [1,5,11,12]
+	},
+	{
+	"id" : 8,
+	"name" : "Programmes malveillants",
+	"toolid" : [1,5,11,12]
+	},
+	{
+	"id" : 9,
+	"name" : "Témoins",
+	"toolid" : [5,11,14,15,16]
+	},
+	{
+	"id" : 10,
+	"name" : "Usurpation d'identité",
+	"toolid" : [1,4,5,11,12,14,15,16]
+	},
+	{
+	"id" : 11,
+	"name" : "Vol de données",
+	"toolid" : [1,4,5,8,10,11,12,14,15,16,17]
+	},
+	{
+	"id" : 12,
+	"name" : "aaa de ddd",
+	"toolid" : [14,15,16,17]
+	}
+]
+
+Tools
+[
+	{
+	"id" : 1,
+	"name" : "Signets"
+	},
+	{
+	"id" : 2,
+	"name" : "Communication avec les sites et les FAI"
+	},
+	{
+	"id" : 3,
+	"name" : "Crédit prépayé"
+	},
+	{
+	"id" : 4,
+	"name" : "Signalement de la cybercriminalité"
+	},
+	{
+	"id" : 5,
+	"name" : "Sites sécurisés"
+	},
+	{
+	"id" : 6,
+	"name" : "Systèmes de cotation par les utilisateurs / Fournisseurs"
+	},
+	{
+	"id" : 7,
+	"name" : "Filtre de contenu"
+	},
+	{
+	"id" : 8,
+	"name" : "Cryptage de courriels"
+	},
+	{
+	"id" : 9,
+	"name" : "Blocage d'autres utilisateurs"
+	},
+	{
+	"id" : 10,
+	"name" : "Paramètres de confidentialité"
+	},
+	{
+	"id" : 11,
+	"name" : "Mises à jour du navigateur et de l'antivirus"
+	},
+	{
+	"id" : 12,
+	"name" : "Pare-feu"
+	},
+	{
+	"id" : 13,
+	"name" : "Gestion de la réputation"
+	},
+	{
+	"id" : 14,
+	"name" : "Politiques de confidentialité"
+	},
+	{
+	"id" : 15,
+	"name" : "Effacement de la mémoire cache du navigateur"
+	},
+	{
+	"id" : 16,
+	"name" : "Navigation privée"
+	},
+	{
+	"id" : 17,
+	"name" : "Détermination de mots de passe robustes"
+	}
+]		
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

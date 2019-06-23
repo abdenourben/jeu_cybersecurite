@@ -1,0 +1,25 @@
+.portfolioDisc {
+	width: 100%;
+    height: 0px;
+	padding-top: 0px;
+    overflow:hidden;
+    margin-top:300px;
+	position:absolute;
+	background-color:#000;
+	font-size: 15px;
+	line-height: 18px;
+	text-align:center;
+	color: #FFF;
+    font-family: FontAwesome, "Open Sans", Verdana, sans-serif;
+}
+
+._backdrop1 .portfolioDisc {
+    height:69px;
+    padding-top: 10px;  
+    margin-bottom: 0; 
+}
+
+
+
+
+  
